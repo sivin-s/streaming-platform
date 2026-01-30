@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@layer utilities{
+  .no-scrollbar::-webkit-scrollbar{
+    display: none;
+  }
+  .no-scrollbar{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  font-family: sans-serif;
+}
+
+body{
+ background-color: hsl(72, 14%, 7%); 
+}
