@@ -1,0 +1,87 @@
+﻿
+> streaming platform@0.0.0 build
+> tsc -b && vite build
+
+src/components/CardSection.component.tsx(1,10): error TS2305: Module '"react-router"' has no exported member 'useNavigate'.
+src/components/CardSection.component.tsx(6,1): error TS6133: 'WatchListType' is declared but its value is never read.
+src/components/CardSection.component.tsx(7,23): error TS2307: Cannot find module 'react-toastify' or its corresponding type declarations.
+src/components/CardSection.component.tsx(26,12): error TS2339: Property 'movieId' does not exist on type 'DOMStringMap | undefined'.
+src/components/CardSection.component.tsx(67,17): error TS2339: Property 'id' does not exist on type 'NonNullable<T>'.
+src/components/CardSection.component.tsx(67,33): error TS2345: Argument of type 'string | undefined' is not assignable to parameter of type 'string'.
+  Type 'undefined' is not assignable to type 'string'.
+src/components/CardSection.component.tsx(74,27): error TS2339: Property 'id' does not exist on type 'NonNullable<T>'.
+src/components/CardSection.component.tsx(74,32): error TS18050: The value 'null' cannot be used here.
+src/components/CardSection.component.tsx(75,38): error TS2339: Property 'backdrop_path' does not exist on type 'NonNullable<T>'.
+src/components/CardSection.component.tsx(76,29): error TS2339: Property 'name' does not exist on type 'NonNullable<T>'.
+src/components/CardSection.component.tsx(122,26): error TS2339: Property 'id' does not exist on type 'NonNullable<T>'.
+src/components/CardSection.component.tsx(125,36): error TS2339: Property 'id' does not exist on type 'NonNullable<T>'.
+src/components/CardSection.component.tsx(126,33): error TS2339: Property 'name' does not exist on type 'NonNullable<T>'.
+src/components/CardSection.component.tsx(126,44): error TS2339: Property 'name' does not exist on type 'NonNullable<T>'.
+src/components/CardSection.component.tsx(130,25): error TS2339: Property 'backdrop_path' does not exist on type 'NonNullable<T>'.
+src/components/CardSection.component.tsx(137,40): error TS2339: Property 'id' does not exist on type 'NonNullable<T>'.
+src/components/CardSection.component.tsx(144,22): error TS2322: Type 'RefObject<SVGElement | null>' is not assignable to type 'Ref<SVGSVGElement> | undefined'.
+  Type 'RefObject<SVGElement | null>' is not assignable to type 'RefObject<SVGSVGElement | null>'.
+    Type 'SVGElement | null' is not assignable to type 'SVGSVGElement | null'.
+      Type 'SVGElement' is missing the following properties from type 'SVGSVGElement': currentScale, currentTranslate, height, width, and 53 more.
+src/components/components.styled/Card.styled.tsx(1,20): error TS2307: Cannot find module 'styled-components' or its corresponding type declarations.
+src/components/components.styled/CardSection.styled.tsx(1,20): error TS2307: Cannot find module 'styled-components' or its corresponding type declarations.
+src/components/components.styled/FallBack404.styled.tsx(1,20): error TS2307: Cannot find module 'styled-components' or its corresponding type declarations.
+src/components/components.styled/Footer.styled.tsx(1,20): error TS2307: Cannot find module 'styled-components' or its corresponding type declarations.
+src/components/components.styled/Header.styled.tsx(1,21): error TS2307: Cannot find module 'styled-components' or its corresponding type declarations.
+src/components/components.styled/Header.styled.tsx(11,19): error TS7031: Binding element '$isScrolled' implicitly has an 'any' type.
+src/components/components.styled/Header.styled.tsx(11,31): error TS7031: Binding element '$location' implicitly has an 'any' type.
+src/components/components.styled/Header.styled.tsx(14,27): error TS7031: Binding element '$isScrolled' implicitly has an 'any' type.
+src/components/components.styled/HeroSection.styled.tsx(1,20): error TS2307: Cannot find module 'styled-components' or its corresponding type declarations.
+src/components/components.styled/HoverCard.styled.tsx(1,20): error TS2307: Cannot find module 'styled-components' or its corresponding type declarations.
+src/components/components.styled/Loading.styled.tsx(1,35): error TS2307: Cannot find module 'styled-components' or its corresponding type declarations.
+src/components/components.styled/LoginForm.styled.tsx(1,20): error TS2307: Cannot find module 'styled-components' or its corresponding type declarations.
+src/components/components.styled/Main.styled.tsx(1,20): error TS2307: Cannot find module 'styled-components' or its corresponding type declarations.
+src/components/components.styled/MovieDetails.styled.tsx(1,20): error TS2307: Cannot find module 'styled-components' or its corresponding type declarations.
+src/components/components.styled/Pagination.styled.tsx(1,20): error TS2307: Cannot find module 'styled-components' or its corresponding type declarations.
+src/components/components.styled/PlayerDialog.styled.tsx(1,20): error TS2307: Cannot find module 'styled-components' or its corresponding type declarations.
+src/components/components.styled/Section.styled.tsx(1,20): error TS2307: Cannot find module 'styled-components' or its corresponding type declarations.
+src/components/components.styled/SignupForm.styled.tsx(1,20): error TS2307: Cannot find module 'styled-components' or its corresponding type declarations.
+src/components/components.styled/WatchListCard.styled.tsx(1,21): error TS2307: Cannot find module 'styled-components' or its corresponding type declarations.
+src/components/Header.component.tsx(3,22): error TS2305: Module '"react-router"' has no exported member 'Link'.
+src/components/Header.component.tsx(5,32): error TS2307: Cannot find module 'firebase/auth' or its corresponding type declarations.
+src/components/HeroSection.component.tsx(4,9): error TS2305: Module '"react-router"' has no exported member 'useNavigate'.
+src/components/LoginForm.component.tsx(3,17): error TS6133: 'useEffect' is declared but its value is never read.
+src/components/LoginForm.component.tsx(6,85): error TS2307: Cannot find module 'firebase/auth' or its corresponding type declarations.
+src/components/LoginForm.component.tsx(8,23): error TS2307: Cannot find module 'react-toastify' or its corresponding type declarations.
+src/components/LoginForm.component.tsx(9,10): error TS2305: Module '"react-router"' has no exported member 'useNavigate'.
+src/components/MovieDetails.component.tsx(5,24): error TS2305: Module '"react-router"' has no exported member 'useNavigate'.
+src/components/MovieDetails.component.tsx(9,23): error TS2307: Cannot find module 'react-toastify' or its corresponding type declarations.
+src/components/MovieDetails.component.tsx(43,18): error TS6133: 'datatype' is declared but its value is never read.
+src/components/MovieDetails.component.tsx(51,20): error TS18048: 'fetchData.id' is possibly 'undefined'.
+src/components/MovieDetails.component.tsx(51,36): error TS18050: The value 'null' cannot be used here.
+src/components/MovieDetails.component.tsx(53,16): error TS2322: Type 'string | null' is not assignable to type 'string | undefined'.
+  Type 'null' is not assignable to type 'string | undefined'.
+src/components/MovieDetails.component.tsx(99,84): error TS18046: 'state' is of type 'unknown'.
+src/components/MovieDetails.component.tsx(144,91): error TS2339: Property 'movieId' does not exist on type '{}'.
+src/components/MovieDetails.component.tsx(168,38): error TS2339: Property 'success' does not exist on type 'MovieDetailsApiResType'.
+src/components/MovieDetails.component.tsx(169,24): error TS2339: Property 'success' does not exist on type 'MovieDetailsApiResType'.
+src/components/Player.component.tsx(1,25): error TS2307: Cannot find module 'react-player' or its corresponding type declarations.
+src/components/PlayerDialog.component.tsx(9,14): error TS2724: '"../types/MovieTrailerType"' has no exported member named 'MovieTrailerApiResponse'. Did you mean 'MovieTrailerApiResponseType'?
+src/components/PrivateRoute.component.tsx(1,10): error TS2305: Module '"react-router"' has no exported member 'Outlet'.
+src/components/PrivateRoute.component.tsx(1,18): error TS2305: Module '"react-router"' has no exported member 'Navigate'.
+src/components/SignupForm.component.tsx(3,61): error TS2307: Cannot find module 'firebase/auth' or its corresponding type declarations.
+src/components/SignupForm.component.tsx(5,23): error TS2307: Cannot find module 'react-toastify' or its corresponding type declarations.
+src/components/SignupForm.component.tsx(6,9): error TS2305: Module '"react-router"' has no exported member 'useNavigate'.
+src/firebase/firebaseConfig.ts(2,29): error TS2307: Cannot find module 'firebase/app' or its corresponding type declarations.
+src/firebase/firebaseConfig.ts(3,24): error TS2307: Cannot find module 'firebase/auth' or its corresponding type declarations.
+src/firebase/firebaseConfig.ts(4,28): error TS2307: Cannot find module 'firebase/firestore' or its corresponding type declarations.
+src/firebase/firebaseConfig.ts(5,26): error TS2307: Cannot find module 'firebase/storage' or its corresponding type declarations.
+src/hooks/useMoviesLoader.ts(1,9): error TS2305: Module '"react-router"' has no exported member 'useLoaderData'.
+src/Layouts/MainLayout.tsx(1,9): error TS2305: Module '"react-router"' has no exported member 'Outlet'.
+src/main.tsx(2,28): error TS2307: Cannot find module 'react-dom/client' or its corresponding type declarations.
+src/main.tsx(4,10): error TS2305: Module '"react-router"' has no exported member 'RouterProvider'.
+src/pages/MovieDetails.page.tsx(3,23): error TS2305: Module '"react-router"' has no exported member 'useNavigate'.
+src/pages/MovieDetails.page.tsx(8,42): error TS2339: Property 'movieId' does not exist on type '{}'.
+src/pages/WatchList.page.tsx(5,23): error TS2307: Cannot find module 'react-toastify' or its corresponding type declarations.
+src/provider/auth/AuthUserProvider.tsx(4,36): error TS2307: Cannot find module 'firebase/auth' or its corresponding type declarations.
+src/provider/auth/AuthUserProvider.tsx(12,58): error TS7006: Parameter 'firebaseUser' implicitly has an 'any' type.
+src/provider/ToastifyProvider.tsx(2,39): error TS2307: Cannot find module 'react-toastify' or its corresponding type declarations.
+src/provider/WatchListStatusProviders.tsx(14,48): error TS7006: Parameter 'doc' implicitly has an 'any' type.
+src/routes/routerConfig/routerConfig.tsx(1,10): error TS2305: Module '"react-router"' has no exported member 'createBrowserRouter'.
+src/services/watchList.service.ts(4,92): error TS2307: Cannot find module 'firebase/firestore' or its corresponding type declarations.
+vite.config.ts(2,19): error TS2307: Cannot find module '@vitejs/plugin-react' or its corresponding type declarations.

@@ -1,0 +1,40 @@
+﻿
+> streaming platform@0.0.0 build
+> tsc -b && vite build
+
+[36mvite v7.1.4 [32mbuilding for production...[36m[39m
+transforming...
+[32mΓ£ô[39m 248 modules transformed.
+rendering chunks...
+computing gzip size...
+[2mdist/[22m[32mindex.html                               [39m[1m[2m  0.49 kB[22m[1m[22m[2m Γöé gzip:   0.31 kB[22m
+[2mdist/[22m[35massets/index-Dxburg-R.css                [39m[1m[2m 16.18 kB[22m[1m[22m[2m Γöé gzip:   4.01 kB[22m
+[2mdist/[22m[36massets/Preview-kq4kJQTD.js               [39m[1m[2m  1.51 kB[22m[1m[22m[2m Γöé gzip:   0.83 kB[22m
+[2mdist/[22m[36massets/react-DV876JsI.js                 [39m[1m[2m  3.15 kB[22m[1m[22m[2m Γöé gzip:   1.58 kB[22m
+[2mdist/[22m[36massets/custom-media-element-Ce0vsE-t.js  [39m[1m[2m  5.34 kB[22m[1m[22m[2m Γöé gzip:   2.10 kB[22m
+[2mdist/[22m[36massets/react-BMKHrBTz.js                 [39m[1m[2m  6.54 kB[22m[1m[22m[2m Γöé gzip:   2.79 kB[22m
+[2mdist/[22m[36massets/react-BisD-v5I.js                 [39m[1m[2m  7.32 kB[22m[1m[22m[2m Γöé gzip:   3.17 kB[22m
+[2mdist/[22m[36massets/react-C9-f-yDJ.js                 [39m[1m[2m  7.87 kB[22m[1m[22m[2m Γöé gzip:   3.17 kB[22m
+[2mdist/[22m[36massets/react-t1wCYfZa.js                 [39m[1m[2m  8.88 kB[22m[1m[22m[2m Γöé gzip:   3.62 kB[22m
+[2mdist/[22m[36massets/react-lc_MhwHC.js                 [39m[1m[2m  9.61 kB[22m[1m[22m[2m Γöé gzip:   3.81 kB[22m
+[2mdist/[22m[36massets/react-CGtkpdYa.js                 [39m[1m[2m 11.10 kB[22m[1m[22m[2m Γöé gzip:   4.24 kB[22m
+[2mdist/[22m[36massets/react-ruw3wdnZ.js                 [39m[1m[2m 49.72 kB[22m[1m[22m[2m Γöé gzip:  15.60 kB[22m
+[2mdist/[22m[36massets/index-Ba6PIqag.js                 [39m[1m[2m484.23 kB[22m[1m[22m[2m Γöé gzip: 126.63 kB[22m
+[2mdist/[22m[36massets/hls-DUNk5l4x.js                   [39m[1m[33m528.93 kB[39m[22m[2m Γöé gzip: 162.50 kB[22m
+[2mdist/[22m[36massets/index-z9nyvypi.js                 [39m[1m[33m861.55 kB[39m[22m[2m Γöé gzip: 234.17 kB[22m
+[2mdist/[22m[36massets/dash.all.min-c_ldjLP4.js          [39m[1m[33m965.84 kB[39m[22m[2m Γöé gzip: 297.68 kB[22m
+node.exe : [33m
+At C:\Users\sivin\AppData\Roaming\npm\npm.ps1:24 char:5
++     & "node$exe"  "$basedir/node_modules/npm/bin/npm-cli.js" $args
++     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ([33m:String) [], Remote 
+   Exception
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: 
+https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via 
+build.chunkSizeWarningLimit.[39m
+[32mΓ£ô built in 9.12s[39m
